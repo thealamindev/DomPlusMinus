@@ -17,7 +17,7 @@ increment.addEventListener("click", () => {
 decrement.addEventListener("click", () => {
   count--;
   box.innerHTML = count;
-  if (count <= 0) {
+  if (count <= 1) {
     decrement.setAttribute("disabled", "true");
   } else {
     decrement.removeAttribute("disabled", "flase");
